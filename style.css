@@ -1,0 +1,131 @@
+/*
+Theme Name: PRA
+Theme URI: http://www.prisonradioassociation.org/‎
+Description: 2013 refresh of the PRA website.
+Version: 1.0
+*/
+/* resets */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}
+body {line-height:1;background:#eee;font-weight:300;font-family: 'Arimo', Helvetica, 'Helvetica Neue', Arial, 'Arial CE', sans-serif;}
+article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary {display:block;}
+nav ul {list-style:none;}
+blockquote,q {quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after {content:none;}
+a {border:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;text-decoration:none;}
+ins {background-color:#ff9;color:#000;text-decoration:none;}
+mark {background-color:#ff9;color:#000;font-style:italic;font-weight:700;}
+del {text-decoration:line-through;}
+abbr[title],dfn[title] {border-bottom:1px dotted #000;cursor:help;}
+table {border-collapse:collapse;border-spacing:0;}
+hr {display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0;}
+input,select {vertical-align:middle;}
+dl,dt,dd,ol,ul {list-style-type:none;}
+
+/* skiplinks */
+#skip-links a {position:absolute;left:-999px;}
+#skip-links a:focus{left:0px;text-indent:0;background:#fff8c6;color:#4e4848;z-index:10;padding:3px;}
+
+/* clearfix */
+.clearfix:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+
+/* header elements */
+#page-header {display:block;margin:0 auto;width:80%;}
+#page-header nav {clear:both;width:100%;}
+#page-header nav ul {width:100%;}
+#page-header nav li {display:inline-block; float:left;position:relative;bottom:0;}
+#page-header nav a {display:block;color:#fff; padding:20px 10px;}
+#page-header nav a:hover {display:block;color:#333;background:#eee}
+#page-header nav a:focus {text-decoration:underline;background:#eee}
+#page-header a.light-blue {background-color:#5ecceb;}
+#page-header a.green {background-color:#1c5432;}
+#page-header a.yellow {background-color:#ffdd00;color:#333;}
+#page-header a.dark-blue {background-color:#3676a1;}
+#page-header a.dark-red {background-color:#b43c5A;}
+#page-header a.brown {background-color:#bf9340;}
+#page-header a.pink {background-color:#cf91cc;}
+#page-header a.bright-red {background-color:#e0004b;}
+#page-header a.purple {background-color:#8f6cd7;}
+#soundcloud-player {height:167px;width:288px;overflow:hidden;float:right;margin-top:16px;}
+#homepage h1,
+#pra-logo {background: #fff url('/wp-content/themes/pra/img/pra-logo.png') no-repeat 0 0; float:left;width:256px; height:141px;text-indent:100%;white-space: nowrap;overflow: hidden;margin-top:16px;}
+#description {margin-bottom:16px;font-size:1em;font-weight:300;}
+#container {background-color:#eee;}
+
+/*page styles */
+
+#page {clear:both;width:80%;margin: 0 auto;position:relative;height:100%;padding-top:10px;}
+#page .column {color:#333;background-color:#eee;padding: 8px 8px 0 8px;float:left;position:relative;height:100%;margin-bottom:10px;}
+
+#page .column h1,
+#page .column h2,
+#page .column h3,
+#page .column h4 {font-weight:400;margin-bottom:8px;}
+
+#page .column a,
+#page .column a:visited,
+#page .column a:hover,
+#page .column a:focus {color:#333;}
+
+#page .column a:hover,
+#page .column a:focus {text-decoration:underline;}
+
+#page .column h1 {font-size:1.3em;}
+#page .column h2 {font-size:1.2em;}
+#page .column h3 {font-size:1.1em;}
+#page .column h4 {font-size:1em;}
+#page .column p {margin: 4px 0 8px 0;font-size:1em;}
+#page .column article {margin-bottom:10px;}
+#page .column img {float:left;margin: 0 10px 10px 0;}
+
+body {width:100%;background-size:100%;background-repeat:no-repeat;}
+
+/* responsive styles */
+@media screen and (min-width: 652px) {
+    /* new nav stylings */
+    #page-header #banner-elements {height:200px;margin-bottom:190px;}
+    #page-header nav li {width:11%;height:100%;}
+    #page-header nav li a {position:absolute;bottom:0;width:83%;}
+    #page-header nav ul {height:160px;}
+    #page-header a.light-blue,
+    #page-header a.brown,
+    #page-header a.pink,
+    #page-header a.bright-red,
+    #page-header a.purple {height:60px;}
+    #page-header a.light-blue:hover,
+    #page-header a.brown:hover,
+    #page-header a.pink:hover,
+    #page-header a.bright-red:hover,
+    #page-header a.purple:hover {height:76px;}
+    #page-header a.green,
+    #page-header a.dark-red {height:76px;}
+    #page-header a.green:hover,
+    #page-header a.dark-red:hover {height:92px;}
+    #page-header a.yellow,
+    #page-header a.dark-blue{height:92px;}
+    #page-header a.yellow:hover,
+    #page-header a.dark-blue:hover {height:104px;}
+}
+@media screen and (min-width: 874px) {
+    #page-header a {-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
+    #page-header a:hover{-moz-box-shadow: 0 0 5px #333;-webkit-box-shadow: 0 0 5px #333;box-shadow: 0 0 5px #333;z-index: 1000;-webkit-transition: all 0.2s ease-in-out;-moz-transition: all 0.2s ease-in-out;-o-transition: all 0.2s ease-in-out;transition: all 0.2s ease-in-out;}
+
+    #main-nav.down,
+    #main-nav.up,
+    #container.down,
+    #container.up {-webkit-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;}
+
+    .two-column-col-a-primary #col-a {width:61%;margin-right: 10px;}
+    .two-column-col-a-primary #col-b {width:29%;}
+
+    .two-column-col-b-primary #col-a {width:29%;margin-right: 10px;}
+    .two-column-col-b-primary #col-b {width:61%;}
+
+    .three-column .column {width:30%;margin-right: 10px;}
+    .three-column .column #col-c {margin-right: 0;}
+    
+    #people-list li {position:relative;margin-left:16px;float:left;width:225px;height:230px;}
+    #people-list .name {background:rgba(62, 168, 76, 0.8);position: absolute;top: 180px;height: 20px;padding: 14px 3px 16px 8px;font-size: 16px;width: 217px;color: white;font-weight: 100;}
+}
+
+
+
