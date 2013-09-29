@@ -47,7 +47,7 @@ dl,dt,dd,ol,ul {list-style-type:none;}
 #page-header a.purple {background-color:#8f6cd7;}
 #soundcloud-player {height:167px;width:288px;overflow:hidden;float:right;margin-top:16px;}
 #homepage h1,
-#pra-logo {background: #fff url('/wp-content/themes/pra/img/pra-logo.png') no-repeat 0 0; float:left;width:256px; height:141px;text-indent:100%;white-space: nowrap;overflow: hidden;margin-top:16px;}
+#pra-logo {background: #fff url('/wp-content/themes/pra/img/pra-logo.gif') no-repeat 0 0; float:left;width:256px; height:141px;text-indent:100%;white-space: nowrap;overflow: hidden;margin-top:16px;}
 #description {margin-bottom:16px;font-size:1em;font-weight:300;}
 #container {background-color:#eee;}
 
