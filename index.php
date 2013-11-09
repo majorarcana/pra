@@ -13,6 +13,13 @@ get_header(); ?>
                     
                 </div>
                 <div id="col-a" class="column">
+                    <aside>
+                        <p>The Prison Radio Association (PRA) aims to change the lives of serving prisoners through the power of radio.</p>
+                        <p>An award-winning education charity, the PRA runs National Prison Radio (NPR) in partnership with the National Offender Management Service (NOMS). The service is available to prisoners across England and Wales directly in their cells.</p>
+                        <p>The PRA also provides support, guidance and expertise to existing prison radio projects and advises prisons interested in setting up radio projects and radio training facilities.</p>
+                        <p>The PRA was established as a charity in 2006 in response to a growing demand from prisons to engage in prison radio.</p>
+                        <p>Registered Charity Number – 1114760</p>
+                    </aside>
                     <?php if ( have_posts() ) : ?>
                     <?php /* Start the Loop */ ?>
 			        <?php while ( have_posts() ) : the_post(); ?>
