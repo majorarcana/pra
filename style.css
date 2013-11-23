@@ -81,6 +81,8 @@ dl,dt,dd,ol,ul {list-style-type:none;}
 #page .column aside figure figcaption {clear:both;text-align:center;font-size:0.8em;font-style:italic;}
 #page .column aside blockquote {font-style:italic;}
 
+#page .column nav.sub-index li {margin-bottom:10px;}
+
 body {width:100%;background-size:100%;background-repeat:no-repeat;}
 
 /* responsive styles */
