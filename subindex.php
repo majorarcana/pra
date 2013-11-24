@@ -16,7 +16,7 @@ get_header(); ?>
                     <nav class="sub-index">
                         <ul>
         			        <?php
-                            	$mypages = get_pages( array( 'child_of' => $post->ID, 'sort_column' => 'post_date', 'sort_order' => 'desc' ) );
+                            	$mypages = get_pages( array( 'child_of' => $post->ID, 'sort_column' => 'post_date', 'sort_order' => 'desc', 'parent' => $post->ID) );
                             	foreach( $mypages as $page ) {
                     	    
                             	?>
