@@ -22,4 +22,13 @@
          }
          return $text;
      }
+     /**
+      * Takes images sub-index pages
+      * @param string $text Page content with images
+      * @return string $text Page content with images removed
+      */     
+     public static function remove_images($text) {
+        $text = preg_replace('/<img[^>]+./','', $text);
+        return $text;
+     }
  }

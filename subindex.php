@@ -13,6 +13,9 @@ get_header(); ?>
                     
                 </div>
                 <div class="column">
+                    <?php while ( have_posts() ) : the_post(); ?>
+    				<?php get_template_part( 'content', 'page' ); ?>
+    				<?php endwhile;?>
                     <nav class="sub-index">
                         <ul>
         			        <?php
@@ -21,10 +24,10 @@ get_header(); ?>
                     	    
                             	?>
                             	<li>
-                            	    <h2><a href="<?php echo get_permalink($page->ID); ?>"><?php echo get_the_title($page->ID); ?></a></h2>
+                            	    <h3><a href="<?php echo get_permalink($page->ID); ?>"><?php echo get_the_title($page->ID); ?></a></h3>
                                 	<?php 
                                 	$fullpage = get_post($page->ID); 
-                                	$content = truncate::page_content($fullpage->post_content, 250); 
+                                	$content = truncate::remove_images(truncate::page_content($fullpage->post_content, 250)); 
                                     echo $content ?>
                                     <a href="<?php echo get_permalink($page->ID); ?>">more-></a>
                                 </li>
