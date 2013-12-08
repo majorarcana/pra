@@ -39,15 +39,15 @@
             </div>
             <nav role="navigation" id="main-nav" class="down">
                 <ul>
-                    <li><a  title="The latest news from the Prison Radio Association" class="light-blue" href="">News</a></li>
-                    <li><a title="The story of the Prison Radio association" class="green" href="">About</a></li>
-                    <li><a title="The world's first national radio station fro prisoners" class="yellow" href="">National Prison Radio</a></li>
-                    <li><a title="Powerful targeted audio with a social impact" class="dark-blue" href="">PRA Productions</a></li>
-                    <li><a title="The global impact of prison radio" class="dark-red" href="">Prison Radio International</a></li>
-                    <li><a title="Online support for prison radio practitioners" class="brown" href="">Work in Prison Radio?</a></li>
-                    <li><a title="Become a friend of the PRA" class="pink" href="">Support us</a></li>
-                    <li><a title="Everything you need to know about the Prison Radio Association" class="bright-red" href="">FAQ</a></li>
-                    <li><a title="Get in touch with the Prison Radio Association" class="purple" href="">Contact</a></li>
+                    <li><a  title="The latest news from the Prison Radio Association" class="light-blue" href="/">News</a></li>
+                    <li><a title="The story of the Prison Radio association" class="green" href="/about/">About</a></li>
+                    <li><a title="The world's first national radio station for prisoners" class="yellow" href="/national-prison-radio/">National Prison Radio</a></li>
+                    <li><a title="Powerful targeted audio with a social impact" class="dark-blue" href="pra-productions">PRA Productions</a></li>
+                    <li><a title="The global impact of prison radio" class="dark-red" href="/prison-radio-international/">Prison Radio International</a></li>
+                    <li><a title="Online support for prison radio practitioners" class="brown" href="work-in-prison-radio/">Work in Prison Radio?</a></li>
+                    <li><a title="Become a friend of the PRA" class="pink" href="/support-us/">Support us</a></li>
+                    <li><a title="Everything you need to know about the Prison Radio Association" class="bright-red" href="/faq/">FAQ</a></li>
+                    <li><a title="Get in touch with the Prison Radio Association" class="purple" href="/contact-us/">Contact</a></li>
                 </ul>
             </nav>
         </header>
